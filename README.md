@@ -1,40 +1,32 @@
 # Binary-Search_Tree-Strings
-String-BST-Cpp
 
-A Binary Search Tree (BST) implementation in C++ that stores strings and supports duplicates. This project demonstrates key concepts of data structures, recursion, and memory management in C++.
+A C++ Binary Search Tree (BST) implementation for strings with duplicate counting, memory management, and standard tree operations.
 
-Features
+## Features
 
-Insert strings into the BST (duplicates are counted).
+Insert, search, and remove strings while handling duplicates.
 
-Search for strings in the tree.
+Tree traversal: in-order, pre-order, and post-order.
 
-Remove strings, handling duplicates and node replacement.
+Find smallest and largest strings in the tree.
 
-Find the smallest and largest strings.
+Compute height of nodes and the tree.
 
-Compute the height of a node or the tree.
+Proper memory management using destructors.
 
-Tree traversal methods: in-order, pre-order, post-order.
+## Technical Skills Demonstrated
 
-Implementation Details
+C++ programming and object-oriented design
 
-Node Class (Node.h / Node.cpp): Represents a tree node containing a string, its duplicate count, and pointers to left and right children.
+Recursive algorithms for tree operations
 
-BSTree Class (BSTree.h / BSTree.cpp): Implements the BST with recursive methods for insertion, search, deletion, height calculation, and traversal.
+Dynamic memory management and pointers
 
-Handles memory management using destructors to avoid memory leaks.
+Data structures: Binary Search Tree (BST)
 
+Console input/output
 
-Example:
-
-BSTree tree;
-tree.insert("apple");
-tree.insert("banana");
-tree.insert("apple"); // duplicate
-tree.inOrder(); // Output: apple(2), banana(1)
-
-Learning Outcomes
+## Learning Outcomes
 
 Understand Binary Search Tree operations: insertion, search, deletion.
 
